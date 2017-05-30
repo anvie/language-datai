@@ -1,6 +1,6 @@
 # Datai support in Atom
 
-Adds syntax highlighting and snippets to for Datai.
+Adds syntax highlighting and snippets for Datai.
 
 ## Install
 
