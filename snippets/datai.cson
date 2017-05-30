@@ -1,0 +1,18 @@
+'.source.datai':
+  'category':
+    'prefix': '+'
+    'body': '''=======================================================================================================
++ ${1:category}
+    '''
+  'record':
+    'prefix': '>'
+    'body': '''> ${1:hai bagaimana kabar}
+: ${2:O B-How O}
+    '''
+  'comment':
+    'prefix': '#'
+    'body': '# ${1:comment here}'
+
+  'todo':
+    'prefix': 'todo'
+    'body': '# @TODO(${1:robin}): ${2:ini perlu dibuat lebih keren}'

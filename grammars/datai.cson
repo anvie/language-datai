@@ -1,0 +1,26 @@
+'name': 'Datai'
+'scopeName': 'source.datai'
+'fileTypes': [
+  'txt', 'datai'
+]
+
+'patterns' : [
+    {
+        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+        'name': 'constant.numeric.datai'
+    },
+    {
+        'match': '\\bO\\b'
+        'name': 'comment.block.datai'
+    },
+    {
+        'begin': '\\+'
+        'end': '$'
+        'name': 'keyword.control.datai'
+    },
+    {
+        'begin': '>'
+        'end': '$'
+        'name': 'string.other.datai'
+    }
+]
