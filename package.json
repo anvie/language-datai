@@ -1,0 +1,17 @@
+{
+  "name": "language-datai",
+  "version": "0.0.1",
+  "description": "Dataset Highlighting",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvie/language-datai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anvie/language-datai/issues"
+  },
+  "license": "MIT"
+}
